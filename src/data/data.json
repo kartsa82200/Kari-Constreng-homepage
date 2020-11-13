@@ -1,136 +1,115 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "CONSTRENG",
+        "paragraph": "Constreng tarjoaa räätälöityjä ohjelmistojen kehitys -ja ylläpitopalveluita tarpeittesi mukaan."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Constreng on suomalainen yritys, jonka perustaja on KARI ERONEN. Yhtiön toimipaikka sijaitsee Helsingissä. Yhtiöllä on laaja verkosto suomalaisia ja ulkomaisia ohjelmistoyrityksiä, joiden avulla pystymme toteuttamaan kaikki toiveesi räätälöidysti!",
+
+
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Räätälöityä kustannustehokasta ohjelmistokehitystä tarpeittesi mukaan.",
+            " Voimme käydä yhdessä tilanteesi läpi ennen jatkosuunnitelmia."
+
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Parhaat ratkaisut juuri sinun tarpeitteisi mukaan, joko suomalainen tai ulkomainen vaihtoehto. Myös molempien yhdistelmä on mahdollinen. Luottamuksellinen tieto sovitaan erikseen!",
+            "Me voimme löytää parhaat vaihtoehdot!"
+
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-fullstack",
+            "name": "Ohjelmistokehitystä ",
+            "text": "Tarjoamme Full Stack - ohjelmistokehitystä. Teknologiavalikoima on laaja. Teemme myös yritysten kotisivuja eri teknologioilla. Esimerkiksi booking- tai ecommerce-sovellukset kuuluvat valikoimaamme."
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Ohjelmistojen ylläpitoa",
+            "text": "Myös ohjelmistojen ylläpito joko kuukausimaksulla tai pitempiaikaisella jaksolla."
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": " Markkinatutkimusta ",
+            "text": " Meidän kauttamme voimme välittää  myös suoraan loppuasiakkaat ja palveluntarjoajat yhteen."
         }
 
 
     ],
+
+
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
+              "img": "img/team/Kari.jpg",
+              "text": "\" Kari on yhtiön perustaja. Hänellä on 20 vuoden kokemus tietojärjestelmien ylläpidosta ja kehityksestä.\"",
+              "name": "Kari Eronen"
+          },
+          {
+              "img": "img/team/Zilant.png",
+              "text": "\" Zilant on tärkein ulkomainen yhteistyökumppani. Yhteistyöverkostomme on laaja ja sieltä löytyy vaihtoehtoja kaikkiin tarpeisiin.\"",
+              "name": "Zilant"
+          }
+      ],
+
+
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "img": "img/team/Kari2.jpg",
+            "name": "Kari Eronen",
+            "job": "Yhtiön perustaja"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
+            "img": "img/team/Katja2.jpg",
+            "name": "Ekaterina Eronen",
+            "job": "Assistentti"
         },
         {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+           "img": "img/team/Zilant2.png",
+           "name": "Zilant",
+           "job": "Zilant - yhteistyökumppani"
+       },
+
+
+
+         {
+            "img": "img/team/bears2.jpg",
+            "name": "Suomalainen verkosto",
+            "job": "Suomen yhteistyöverkosto"
+        },
+        {
+            "img": "img/team/world3.jpg",
+            "name": "Ulkomainen verkosto",
+            "job": "Ulkomainen yhteistyöverkosto"
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": " Tilkankatu 39 A , 00300 Helsinki",
+        "phone": "+358 400 633 529",
+        "email": "k.eronen@zilant.tech",
+        "facebook": "https://www.facebook.com/kari.eronen",
+        "linkedin": "https://www.linkedin.com/in/karieronen71"
+
+
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Laatua",
+            "text": "Tarjoamme laadukasta palvelua tarpeisiinne."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Räätälöityä palvelua",
+            "text": "Tarjoamme henkilökohtaista palvelua."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Kustannustehokkuutta",
+            "text": "Palvelumme on kustannustehokasta."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Laajan yhteistyöverkoston hyödyt",
+            "text": "Voit kauttamme päästä käsiksi sekä suomalaisten että ulkomaisten ohjelmistoyritysten palveluihin, tarpeittesi mukaan."
         }
     ]
 }

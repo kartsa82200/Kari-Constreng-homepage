@@ -6,66 +6,40 @@ export class Contact extends Component {
       <div>
         <div id="contact">
           <div className="container">
-            <div className="col-md-8">
-              <div className="row">
+             <div className="col-md-8">
+               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>Ole yhteydessä</h2>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+                    Ota yhteyttä allaolevilla tavoilla.
                   </p>
-                </div>
-                <form name="sentMessage" id="contactForm" noValidate>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          id="name"
-                          className="form-control"
-                          placeholder="Name"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          id="email"
-                          className="form-control"
-                          placeholder="Email"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      className="form-control"
-                      rows="4"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                    <p className="help-block text-danger"></p>
-                  </div>
-                  <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
-                  </button>
-                </form>
+
+
+                <p>
+
+                  <a href="https://www.linkedin.com/in/karieronen71/">Kari Eronen LinkedIn</a>
+                  </p>
+
+                  <p>
+                  <a href="http://zilant.tech">Zilant - kansainvälinen yhteistyökumppani</a>
+                  </p>
+
+                  <p>
+                  <a href="mailto:k.eronen@zilant.tech">Lähetä sähköpostia email: k.eronen@zilant.tech</a>
+                  </p>
+                  <p>
+                <a href="tel:+358400633529">Soita +358400633529</a>
+                </p>
+              </div>
+
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-                <h3>Contact Info</h3>
+                <h3>Yhteystiedot</h3>
                 <p>
                   <span>
-                    <i className="fa fa-map-marker"></i> Address
+                    <i className="fa fa-map-marker"></i> Osoite
                   </span>
                   {this.props.data ? this.props.data.address : "loading"}
                 </p>
@@ -73,7 +47,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Phone
+                    <i className="fa fa-phone"></i> Puhelin
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
                 </p>
@@ -81,7 +55,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> Sähköposti
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
@@ -99,32 +73,34 @@ export class Contact extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
+                      <a href={this.props.data ? this.props.data.linkedin : "/"}>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
-                      </a>
+                    <a href="www.yrittajat.fi"><img src="/img/team/jasenbanneri_medium.png" ></img>
+                    </a>
+                    </li>
+
+
+
+                    <li>
+                    Design by{" "}
+                    <a href="http://www.templatewire.com" rel="nofollow">
+                      TemplateWire
+                    </a>
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
+
+
           </div>
         </div>
-        <div id="footer">
-          <div className="container text-center">
-            <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
-            </p>
-          </div>
-        </div>
+      
       </div>
+    </div>
+   </div>
+
     );
   }
 }

@@ -13,13 +13,13 @@ export class Navigation extends Component {
               data-target="#bs-example-navbar-collapse-1"
             >
               {" "}
-              <span className="sr-only">Toggle navigation</span>{" "}
+              <span className="sr-only">Navigoi</span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+              Constreng - Constructive engineering
             </a>{" "}
           </div>
 
@@ -30,37 +30,37 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               <li>
                 <a href="#features" className="page-scroll">
-                  Features
+                  Yhtiöstä
                 </a>
               </li>
               <li>
                 <a href="#about" className="page-scroll">
-                  About
+                  Meistä
                 </a>
               </li>
               <li>
                 <a href="#services" className="page-scroll">
-                  Services
+                  Palvelut
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Gallery
+                  Galleria
                 </a>
               </li>
               <li>
                 <a href="#testimonials" className="page-scroll">
-                  Testimonials
+                  Todettua
                 </a>
               </li>
               <li>
                 <a href="#team" className="page-scroll">
-                  Team
+                  Työntekijät
                 </a>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contact
+                  Ota yhteyttä
                 </a>
               </li>
             </ul>

@@ -3,7 +3,8 @@ body, html {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
-	font-weight: 400;
+	font-weight: 600;
+	font-size: 20px;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -33,7 +34,7 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-size: 15px;
+	font-size: 20px;
 }
 p.intro {
 	margin: 12px 0 0;
@@ -149,7 +150,7 @@ hr {
 	left: 50%;
 }
 .section-title p {
-	font-size: 18px;
+	font-size: 30px;
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
@@ -419,13 +420,41 @@ header .intro-text {
 }
 #team h4 {
 	margin: 5px 0;
+/*
+#team .img-team {
+	width: 50px;
+	height: 50px;
 }
-#team .team-img {
-	width: 240px;
+*/
+
+}
+#team .team-img .img-team {
+
+/*
+	width: rgba(255, 0, 0, 0,  0.5);px;
+	height: rgba(255, 0, 0, 0, 0.5);px;
+
+
+
+	width: 50px;
+	height: 50px;
+*/
+
+	img-team.resize {
+	  width:200px;
+	  height:200px;
+	}
+
+
+
+
 }
 #team .thumbnail {
 	background: transparent;
 	border: 0;
+	width: rgba(255, 0, 0, 0.5);px;
+	height: rgba(255, 0, 0, 0.5);px;
+
 }
 #team .thumbnail .caption {
 	padding: 10px 0 0 0;
@@ -440,9 +469,21 @@ header .intro-text {
 #contact .section-title {
 	margin-bottom: 40px;
 }
-#contact .section-title p {
-	font-size: 16px;
+
+#contact .section-title a {
+	font-size: 30px;
+	color: #EB984E;
 }
+
+
+
+#contact .section-title p {
+	font-size: 30px;
+	color: #888;
+}
+
+
+
 #contact h2 {
 	color: #fff;
 	margin-top: 10px;

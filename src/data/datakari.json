@@ -1,0 +1,92 @@
+
+    {
+        "Header": {
+
+            "title": "We are a Landing Page",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+
+        },
+
+
+
+
+
+
+    "About": {
+        "paragraph": "Constreng on suomalainen yritys, jonka perustaja on Kari Eronen! Yhtiön toimipaikka sijaitsee Helsingissä. Yhtiöllä on laaja verkosto suomalaisia ja ulkomaisia ohjelmistoyrityksiä, joiden avulla pystymme toteuttamaan kaikki toiveesi räätälöidysti!",
+
+
+        "Why": [
+            "Räätälöityä kustannustehokasta ohjelmistokehitystä tarpeittesi mukaan.",
+            " Voimme käydä yhdessä tilanteesi läpi ennen jatkosuunnitelmia."
+
+        ],
+        "Why2": [
+            "Parhaat ratkaisut juuri sinun tarpeitteisi mukaan, joko suomalainen tai ulkomainen vaihtoehto. Myös molempien yhdistelmä on mahdollinen. Luottamuksellinen tieto sovitaan erikseen!",
+            "Me voimme löytää parhaat vaihtoehdot!"
+
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Ohjelmistokehitystä ",
+            "text": "Tarjoamme Full Stack - ohjelmistokehitystä. Teknologiavalikoima on laaja."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Ohjelmistojen ylläpitopalveluita",
+            "text": "Myös ohjelmistojen ylläpito joko kuukausimaksulla tai pitempiaikaisella jaksolla."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": " Markkinatutkimusta ",
+            "text": " Meidän kauttamme voimme välittää  myös suoraan loppuasiakkaat ja palveluntarjoajat yhteen."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/Kari.jpg",
+            "text": "\" Kari is the founder and CEO of Constreng. He is always interested in discuss new business opportunities!.\"",
+            "name": "Kari Eronen"
+        },
+        {
+            "img": "img/testimonials/Zilant.jpg",
+            "text"  "\" Zilant on ulkomainen yhteistyökumppani.\"",
+            "name": "Zilant"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "Kari Eronen",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Ekaterina Eronen",
+            "job": "Assistant"
+        }
+
+
+
+    ],
+    "Contact": {
+        "address": "Tilkankatu 39 A, 00300 Helsinki, Finland ",
+        "phone": "+358 400 633 529",
+        "email": "k.eronen@zilant.tech",
+        "facebook": "fb.com",
+        "Linkedin": "Linkedin.com"
+
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
